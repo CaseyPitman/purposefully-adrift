@@ -108,14 +108,15 @@ textarea {
 
    }
 
-   header
+   header,
    footer {
-    
+     display: flex;
+     justify-content: center;
+     align-items: center;
    }
 
-   .content-wrapper {
-
-   }
+   
+   
 
    h1,
    h2,
@@ -148,42 +149,56 @@ textarea {
 
    }
 
-   .logo  {
-
+   header figure {
+     display: flex;
+     justify-content: center;
+     align-items: center;
    }
+
    .header-divider  {
 
    }
 
-   nav{
-
+   header nav{
+     display:flex;
+     justify-content:center;
+     align-items:center;
    }
 
-   nav ul{
-
+   header nav ul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
    }
 
-   nav ul li  {
+  header nav ul li  {
+    display:inline;
+  }
 
-   }
+   
 
-   nav ul li a  {
-
+   header nav ul li a  {
    }
 
    /*********** Main Content Area - Mobile ***********/
 
    main{
+  
 
    }
 
    .hero {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
    /************** ASIDE -FORM **************/
 
    aside  {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
    .form-description  {
@@ -202,10 +217,21 @@ textarea {
    /*************** FEATURES SECTION **********/
    
    .features  {
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     align-content:center;
 
+    
+   }
+
+   .features h2 {
    }
 
    article{
+     display:flex;
+     justify-content: center;
+     align-items: center;
 
    }
 
@@ -220,6 +246,9 @@ textarea {
   /*************** REVIEWS SECTION **********/
 
   .reviews  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
@@ -237,8 +266,78 @@ textarea {
   }
 
   /*===========================================
-  +++++++++++End Main Content Area+++++++++++++
+  +++++++End Main Content Area Homepage++++++++
   ============================================/
+
+/************* ABOUT PAGE ********************/
+
+.mission  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-content  {
+
+}
+
+.mission-content h2{
+
+}
+
+.mission-details  {
+
+}
+
+.map  {
+
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info .content-wrapper h2  {
+
+}        
+
+.contact-content  {
+
+}
+
+.contact-content h3 {
+
+}
+
+.contact-content address{
+
+}
+
+/*************END ABOUT PAGE ****************/
+
+
+/*??????????????? FAQ PAGE ??????????????????*/
+
+.faq-container  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-content  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/*??????????? END FAQ PAGE ??????????????????*/
 
 
   /*___________________________________________
@@ -246,11 +345,12 @@ textarea {
   ____________________________________________*/
 
 
-  .footer-content {
-
-  }
+  
 
   .contact  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
@@ -259,6 +359,9 @@ textarea {
   }
 
   .social {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
