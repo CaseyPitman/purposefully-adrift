@@ -98,7 +98,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  /*************** Base Styles **************/
+  /*********Global Styles **************/
 
    html {
 
@@ -108,20 +108,18 @@ textarea {
 
    }
 
-   header,
-   footer {
+   header, footer {
      display: flex;
      justify-content: center;
      align-items: center;
+     flex-flow:row wrap;
    }
 
+  
    
-   
-
-   h1,
-   h2,
-   h3, {
-     /************ Uniform Fonts ********/
+   h1, h2, h3 {
+     
+  
 
    }
 
@@ -145,7 +143,11 @@ textarea {
 
 
 /************ Header Styles **********/
-   header{
+   header .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
 
    }
 
@@ -163,6 +165,7 @@ textarea {
      display:flex;
      justify-content:center;
      align-items:center;
+     flex-flow:row wrap;
    }
 
    header nav ul{
@@ -192,6 +195,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow:row wrap;
    }
    /************** ASIDE -FORM **************/
 
@@ -199,6 +203,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow:row wrap;
    }
 
    .form-description  {
@@ -220,9 +225,7 @@ textarea {
      display:flex;
      justify-content: center;
      align-items: center;
-     align-content:center;
-
-    
+     flex-flow:row wrap;
    }
 
    .features h2 {
@@ -249,7 +252,7 @@ textarea {
     display:flex;
     justify-content: center;
     align-items: center;
-
+    flex-flow:row wrap;
   }
 
   .review-img {
@@ -275,6 +278,8 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow:row wrap;
+
 }
 
 .mission-content  {
@@ -297,9 +302,10 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow:row wrap;
 }
 
-.contact-info .content-wrapper h2  {
+.contact-info h2  {
 
 }        
 
@@ -324,15 +330,17 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow:row wrap;
+
 }
 
 .faq-content  {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow:row wrap;
+
 }
-
-
 
 
 
@@ -347,11 +355,11 @@ textarea {
 
   
 
-  .contact  {
+  address  {
     display:flex;
     justify-content: center;
     align-items: center;
-
+    flex-flow:row wrap;
   }
 
   .contact a  {
@@ -362,6 +370,8 @@ textarea {
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-flow:row wrap;
+
 
   }
 
