@@ -112,6 +112,7 @@ body{
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
+  width:90%;
 }
 
 
@@ -122,6 +123,7 @@ body{
      justify-content: center;
      align-content: center;
      flex-flow:row wrap;
+     
    }
 
   header .content-wrapper  {
@@ -129,6 +131,7 @@ body{
     justify-content: center;
     align-content: center;
     flex-flow:row wrap;
+    
    }
 
    header nav{
@@ -136,15 +139,20 @@ body{
     justify-content: center;
     align-content: center;
     flex-flow:row wrap;
+    width:60%;
+    
    }
 
    header nav ul {
     display:flex;
     justify-content: space-around;
+    width:40%;
+    padding:0;
    }
 
    header nav ul li{
      display:inline;
+
    }
 
    footer .social-icons {
@@ -153,9 +161,37 @@ body{
      align-items:center;
    }
 
+   .footer-content  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:row wrap;
+   }
+
 
    /*################# Home Page Mobile Styles################*/
 
+  
+   header figure  { 
+     
+   }
+
+   .header-divider  {
+     width:100%;
+   }
+
+  footer .content-wrapper {
+    width:55%;
+    margin: 50px 0;
+  }
+
+  
+  .social {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow:row wrap;
+  }
 
 
    /********** Hero Area *********/
@@ -194,6 +230,7 @@ body{
     justify-content:center;
     align-items:center;
     flex-flow:row wrap;
+    width:55%;
    }
 
 
@@ -207,6 +244,10 @@ body{
     justify-content:center;
     align-items:center;
     flex-flow:row wrap;
+   }
+
+   .reviews h3{
+     width: 50%;
    }
 
 
@@ -225,6 +266,19 @@ body{
       justify-content:center;
       align-items:center;
       flex-flow:row wrap;
+    }
+
+    .contact-content {
+      display:flex;
+      justify-content:flex-start;
+      align-items:center;
+      flex-flow:row wrap;
+      width:90%
+    }
+
+    .contact-content h3{
+      width:70%;
+
     }
 
 
