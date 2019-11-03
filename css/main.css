@@ -155,10 +155,12 @@ textarea {
      display: flex;
      justify-content: center;
      align-items: center;
+     width:60%; /*******This could change depending on the logo******/
    }
 
    .header-divider  {
-
+     border-top:1px solid black;
+     width:100%;
    }
 
    header nav{
