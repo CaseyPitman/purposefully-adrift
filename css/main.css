@@ -98,296 +98,160 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  /*********Global Styles **************/
+/******************Global Styles *******************/
+html{
 
-   html {
+}
 
-   }
+body{
 
-   body {
+}
 
-   }
+.content-wrapper  {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
+}
 
-   header, footer {
-     display: flex;
+
+/**=================== Base Header & Footer Styles ==========================*/
+  
+  header, footer {
+     display:flex;
      justify-content: center;
-     align-items: center;
+     align-content: center;
      flex-flow:row wrap;
    }
 
-  
-   
-   h1, h2, h3 {
-     
-  
-
-   }
-
-   /**************** FONT SIZES & WEIGHTS**********/
-
-   h1 {
-
-   }
-
-   h2{
-
-   }
-
-   h3{
-
-   }
-
-   p  {
-
-   }
-
-
-/************ Header Styles **********/
-   header .content-wrapper{
-    display: flex;
+  header .content-wrapper  {
+    display:flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex-flow:row wrap;
-
-   }
-
-   header figure {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width:60%; /*******This could change depending on the logo******/
-   }
-
-   .header-divider  {
-     border-top:1px solid black;
-     width:100%;
    }
 
    header nav{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow:row wrap;
+   }
+
+   header nav ul {
+    display:flex;
+    justify-content: space-around;
+   }
+
+   header nav ul li{
+     display:inline;
+   }
+
+   footer .social-icons {
+     display:flex;
+     justify-content:center;
+     align-items:center;
+   }
+
+
+   /*################# Home Page Mobile Styles################*/
+
+
+
+   /********** Hero Area *********/
+
+   .hero {
+     display:flex;
+     justify-content: center;
+     align-items:center;
+   }
+
+
+
+
+   /********* Aside - Form ***********/
+
+   aside {
      display:flex;
      justify-content:center;
      align-items:center;
      flex-flow:row wrap;
    }
 
-   header nav ul{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    
-   }
 
-  header nav ul li  {
-    display:inline;
-  }
 
-   
 
-   header nav ul li a  {
-   }
+   /*********** Features **************/
 
-   /*********** Main Content Area - Mobile ***********/
-
-   main{
-  
-
-   }
-
-   .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow:row wrap;
-   }
-   /************** ASIDE -FORM **************/
-
-   aside  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow:row wrap;
-   }
-
-   .form-description  {
-
-   }
-
-   .form {
-
-   }
-   
-   /********************************************
-   ***** Input & Button Styles Here ************
-   ********************************************/
-
-   
-   /*************** FEATURES SECTION **********/
-   
    .features  {
      display:flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow:row wrap;
+     justify-content:center;
+     align-items:center;
    }
 
-   .features h2 {
-   }
-
-   article{
-     display:flex;
-     justify-content: center;
-     align-items: center;
-
-   }
-
-  .feature-icon {
-
-  }
-
-  .feature-description  {
-
-  }
-
-  /*************** REVIEWS SECTION **********/
-
-  .reviews  {
+   .features article  {
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
     flex-flow:row wrap;
-  }
-
-  .review-img {
-
-  }
-
-  .review-img img{
-    /*******IMG STYLES********/
-
-  }
-
-  .review-text  {
-
-  }
-
-  /*===========================================
-  +++++++End Main Content Area Homepage++++++++
-  ============================================/
-
-/************* ABOUT PAGE ********************/
-
-.mission  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-
-}
-
-.mission-content  {
-
-}
-
-.mission-content h2{
-
-}
-
-.mission-details  {
-
-}
-
-.map  {
-
-}
-
-.contact-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-}
-
-.contact-info h2  {
-
-}        
-
-.contact-content  {
-
-}
-
-.contact-content h3 {
-
-}
-
-.contact-content address{
-
-}
-
-/*************END ABOUT PAGE ****************/
-
-
-/*??????????????? FAQ PAGE ??????????????????*/
-
-.faq-container  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-
-}
-
-.faq-content  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-
-}
+   }
 
 
 
 
-/*??????????? END FAQ PAGE ??????????????????*/
+
+   /*********** Reviews ***************/
+
+   .reviews {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:row wrap;
+   }
 
 
-  /*___________________________________________
-  _________________Footer Styles ______________
-  ____________________________________________*/
 
+   /*################ About Page #############*/
+
+    .mission  {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-flow:row wrap;
+    }
+
+    .contact-info {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-flow:row wrap;
+    }
+
+
+
+   /*################ FAQ Page #############*/
+
+    .faq  {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-flow:row wrap;
+    }
 
   
 
-  address  {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow:row wrap;
-  }
 
-  .contact a  {
-
-  }
-
-  .social {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow:row wrap;
+   /*@@@@@@@@@@@@@@@@@@ Tablet Styles @@@@@@@@@@@@*/
 
 
-  }
 
-  .social-icons {
 
-  }
 
-  .social-icons img{
+   /*@@@@@@@@@@@@@@@@ Desktop Styls @@@@@@@@@@@@@@@*/
 
-  }
 
-  .copyright  {
 
-  }
+
 
 
 
