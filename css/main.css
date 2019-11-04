@@ -115,6 +115,10 @@ body{
   width:90%;
 }
 
+a {
+  text-decoration:none;
+}
+
 
 /**=================== Base Header & Footer Styles ==========================*/
   
@@ -184,8 +188,11 @@ body{
     width:55%;
     margin: 50px 0;
   }
-
   
+  .footer-content{
+    text-align:center;
+  }
+
   .social {
     display:flex;
     justify-content: center;
@@ -233,6 +240,8 @@ body{
     width:55%;
    }
 
+   
+
 
 
 
@@ -277,7 +286,7 @@ body{
     }
 
     .contact-content h3{
-      width:70%;
+      width:90%;
 
     }
 
