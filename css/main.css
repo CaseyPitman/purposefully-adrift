@@ -208,6 +208,10 @@ a {
     flex-flow:row wrap;
   }
 
+  .copyright p {
+    width:100%;
+  }
+
 
    /********** Hero Area *********/
 
@@ -317,6 +321,11 @@ a {
       align-items:center;
       flex-flow:row wrap;
     }
+
+    .faq .content-wrapper h2  {}
+    
+
+
 
 
 
