@@ -120,6 +120,13 @@ a {
 }
 
 
+h1, h2, h3, h4  {
+  margin:0;
+}
+p {
+  margin:0;
+}
+
 /**=================== Base Header & Footer Styles ==========================*/
   
   header, footer {
@@ -259,6 +266,10 @@ a {
     align-items:center;
     flex-flow:row wrap;
     width:55%;
+   }
+
+   p.feature-description {
+     margin:0;
    }
 
    
