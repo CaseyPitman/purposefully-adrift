@@ -422,7 +422,7 @@ p {
    /******Global Tablet Styles*******/
 
    .content-wrapper {
-     max-width:650px;
+     max-width:640px;
 
    }
 
@@ -471,25 +471,48 @@ p {
    /******** Aside ********/
 
    aside .content-wrapper{
-     background:red;
      justify-content: space-between;
-     
-
    }
 
    .form-description{
-     background:blue;
-     width:40%;
+     width:45%;
    }
   
-
-   }
-
    aside .form{
-     background:green;
-     width:40%;
+     width:45%;
    }
 
+   aside .from input{
+     width:100%;
+     padding:0;
+   }
+
+    #form-content {
+    padding-left:50px;
+    }
+
+    /************ Feature**********/
+
+    .features .content-wrapper{
+      background:lightblue;
+    }
+    .features .content-wrapper h2 {
+      color:red;
+      background:yellow;
+    }
+
+    .features article  {
+      background:green;
+      
+    }
+
+    .feature-icon {
+
+    }
+
+    .feature-description  {
+
+    }
 
 
 }
