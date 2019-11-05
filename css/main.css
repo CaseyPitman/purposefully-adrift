@@ -193,6 +193,7 @@ p {
 
 
    header figure  { 
+     margin:0;
      
    }
 
@@ -202,10 +203,9 @@ p {
    }
 
   footer .content-wrapper {
-    width:55%;
+    width:90%;
     margin: 50px 0;
   }
-  
   
 
   .social {
@@ -215,8 +215,9 @@ p {
     flex-flow:row wrap;
   }
 
-  .copyright p {
-    width:100%;
+  .copyright {
+    margin-top:40px;
+
   }
 
 
@@ -228,6 +229,11 @@ p {
      align-items:center;
    }
 
+   .hero .content-wrapper {
+    display:flex;
+    justify-content: flex-start;
+  }
+
 
 
 
@@ -238,6 +244,10 @@ p {
      justify-content: center;
      align-items:center;
      flex-flow:row wrap;
+   }
+
+   aside .form {
+     width:100%;
    }
 
 
@@ -314,48 +324,7 @@ p {
     }
 
     .faq .content-wrapper h2  {}
-    
-
-
-
-
-
   
-
-
-   /*@@@@@@@@@@@@@@@@@@ Tablet Styles @@@@@@@@@@@@*/
-
-
-
-
-
-   /*@@@@@@@@@@@@@@@@ Desktop Styls @@@@@@@@@@@@@@@*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -447,16 +416,91 @@ p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width:768px){
+   /*@@@@@@@@@@@@@@@@@@ Tablet Styles @@@@@@@@@@@@*/
+
+   /******Global Tablet Styles*******/
+
+   .content-wrapper {
+     max-width:650px;
+
+   }
+
+   /********** Header *******/
+
+
+   header {
+     
+   }
+
+   header figure {
+     width:40%;
+   }
+
+   header .content-wrapper{
+     justify-content: space-between;
+
+   }
+
+   .header-divider{
+     display:none;
+     width: 10%;
+
+   }
+
+   header nav   {
+     width:40%;
+     justify-content:flex-end;
+   }
+
+   header nav ul  {
+
+   }
+
+   header nav ul li {
+     padding: 0 0 0 40px;
+   }
+
+   /******* Hero ********/
+
+   .hero .content-wrapper {
+     display:flex;
+     justify-content: flex-start;
+   }
+
+   /******** Aside ********/
+
+   aside .content-wrapper{
+     background:red;
+     justify-content: space-between;
+     
+
+   }
+
+   .form-description{
+     background:blue;
+     width:40%;
+   }
+  
+
+   }
+
+   aside .form{
+     background:green;
+     width:40%;
+   }
+
+
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width:1200px){
+   /*@@@@@@@@@@@@@@@@ Desktop Styles @@@@@@@@@@@@@@@*/
+
 }
+
+
+
 
 /* ==========================================================================
    Print styles.
