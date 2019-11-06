@@ -271,6 +271,13 @@ p {
      margin:0;
    }
 
+   #test  {
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     flex-flow:row wrap;
+   }
+
    /*********** Reviews ***************/
 
    .reviews {
@@ -423,6 +430,10 @@ p {
 
    .content-wrapper {
      max-width:640px;
+   }
+
+   body {
+     background:black;
 
    }
 
@@ -430,6 +441,7 @@ p {
 
 
    header {
+     background:white;
      
    }
 
@@ -463,15 +475,22 @@ p {
 
    /******* Hero ********/
 
+   .hero{
+  
+   }
+
    .hero .content-wrapper {
      display:flex;
      justify-content: flex-start;
+     background:teal;
    }
 
    /******** Aside ********/
 
+   
    aside .content-wrapper{
      justify-content: space-between;
+     background:orangered;
    }
 
    .form-description{
@@ -503,7 +522,20 @@ p {
 
     .features article  {
       background:green;
-      
+      width:30%;
+      margin:10px;
+      padding:30px;
+    }
+
+    #test {
+      display:flex;
+      justify-content:space-around;
+      align-items:baseline;
+      flex-flow:row wrap;
+    }
+
+    #test article p {
+    color:red;
     }
 
     .feature-icon {
@@ -514,6 +546,58 @@ p {
 
     }
 
+    /**** Reviews - Tablet ******/
+
+
+    .reviews .content-wrapper{
+      background:lightgreen;
+      justify-content:space-between;
+      align-items:baseline;
+    }
+
+    .reviews .content-wrapper h2{
+      color:purple;
+    
+    }
+
+    .reviews .review-img  {
+      width:310px;
+      height:200px;
+      background:red;
+    }
+
+    .reviews .review-text {
+      width:310px;
+    }
+
+    footer  {
+      margin:0;
+
+    }
+
+    footer .content-wrapper {
+      background:gray;
+    }
+    
+    .footer-content {
+      background:seagreen;
+      align-items:baseline;
+      justify-content: space-around;
+    }
+
+    .contact  {
+      background:white;
+      width:210px;
+    }
+
+    .social{
+      background:blueviolet;
+      width:210px;
+    }
+    .social-icons{
+      background:orange;
+      width:100%;
+    }
 
 }
 
