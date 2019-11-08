@@ -100,13 +100,277 @@ textarea {
 
 /******************Global Styles *******************/
 
+html{
+
+}
+
+body{
+
+}
+
+.content-wrapper{
+
+}
+
+/************* Header - Mobile ***************/
+
+header  {
+  background:red;
+}
+
+header .content-wrapper {
+  background:orange;
+}
+
+.header-divider {
+  height:1px;
+  background:black;
+}
+
+header nav  {
+  background:yellow;
+}
+
+header nav ul{
+  background:green;
+}
+
+header nav ul li {
+  background:blue;
+}
+
+header nav ul li  a {
+ color:white;
+}
+
+/*############## Home - Mobile ############*/
+
+/*********Hero - Home - Mobile *************/
+
+.hero-area  {
+  background:indigo;
+  /***Img will go here*/
+}
+
+.hero-area .content-wrapper {
+  background:violet;
+}
+
+.hero-area .content-wrapper h1{ 
+  background:lightseagreen;
+}
 
 
-  
+/*********Aside - Home - Mobile ************/
+
+aside{
+  background:tomato;
+}
+
+aside .content-wrapper{
+  background:orange;
+}
+
+aside .content-wrapper .form-description  {
+  background:lightgreen;
+}
+
+aside .content-wrapper .form  {
+  background:salmon;
+}
+
+/*********Features - Home - Mobile ************/
+
+.features {
+  background:lightblue;
+}
+
+.features .content-wrapper{
+  background:pink;
+}
+
+.features .content-wrapper h2 {
+  background:greenyellow;
+}
+
+.feature-icon {
+  background:lightseagreen;
+}
+
+.feature-description {
+  background:lightgray;
+}
+
+/*********Features - Home - Mobile ************/
+
+.reviews  {
+  background:olive;
+}
+
+.reviews .content-wrapper{
+  background:silver;
+}
+
+.review-img {
+  background:lightsalmon;
+  width:320px;
+  height:200px;
+}
+
+.review-text  {
+  background:brown;
+}
+
+.review-text h3  {
+  background:darkgoldenrod;
+}
+
+.review-text p  {
+  background:steelblue;
+}
+
+/*_______________Footer - Mobile __________________*/
+
+footer{
+  background:rosybrown
+}
+
+footer .content-wrapper{
+  background:cornflowerblue;
+}
+
+.contact  {
+  background:lightseagreen;
+}
+
+.contact h3 {
+  background:lemonchiffon;
+}
+
+.contact p  {
+  background:royalblue;
+}
+
+.social {
+  background:lightsteelblue;
+}
+
+.social h3{
+  background:lightpink;
+}
+
+.social-icons {
+  background:lightgoldenrodyellow;
+}
+
+.copyright  {
+  background:lavender;
+}
+
+/*############## About - Mobile ############*/
+
+/******Mission******/
+
+.mission  {
+  background:blue;
+}
+
+.mission .content-wrapper{
+  background:lightcyan;
+}
+
+.mission .content-wrapper h2{
+  background:lightgray;
+}
+
+.mission-content  {
+  background-color:lightcoral;
+}
+
+.mission-content p {
+  background:lightseagreen
+}
 
 
-  
+/*******Map*******/
+.map  {
+  background:aquamarine;
+  height:450px;
+}
 
+.map figure {
+  background:slategray;
+  height:450px
+}
+
+
+/*******Contact Info*******/
+
+.contact-info {
+  background:lightseagreen;
+}
+
+.contact-info .content-wrapper{
+  background:lightsteelblue;
+}
+
+.contact-info .content-wrapper h2{
+  background:silver;
+}
+
+.contact-content  {
+  background:lavender;
+}
+
+.general-info {
+  background:lightblue;
+}
+
+.general-info h3 {
+  background:greenyellow;
+}
+
+.general-info p {
+  background:rgb(171, 240, 171);
+}
+
+.contact-crew {
+  background:darkorange;
+}
+
+.contact-crew h3{
+  background:yellow;
+}
+
+.contact-crew p{
+  background:tomato;
+}
+
+/*############## FAQ - Mobile ############*/
+
+.faq  {
+  background:green;
+}
+
+.faq .content-wrapper{
+  backgound:lightgreen;
+}
+
+.faq .content-wrapper h2{
+  background:yellowgreen;
+}
+
+.faq-content  {
+  background:lightslategrey
+}
+
+.faq-content h3 {
+  background:salmon;
+}
+
+.faq-content p  {
+  background:lightskyblue;
+}
 
 
 /* ==========================================================================
@@ -198,9 +462,87 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+/*@@@@@@@@@@@@@@@Tablet Styles@@@@@@@@@@@@@@@@*/
 
-   
-   
+
+/*-------------Tablet Global Styles ----------*/
+
+/*############## Home - Tablet ###############*/
+
+
+/************** Header - Tablet ***************/
+
+/************** Hero - Tablet *****************/
+
+/*************** Form - Tablet ****************/
+
+/************* Features - Tablet **************/
+
+/************** Review - Tablet ***************/
+
+/************** Footer - Tablet ***************/
+
+
+
+/*############## About - Tablet ##############*/
+
+/************* Mission - Tablet ***************/
+
+/************* Map- Tablet ********************/
+
+/************* Contact - Tablet ***************/
+
+
+
+/*############## FAQ - Tablet ################*/
+
+/************* FAQ Content- Tablet ************/
+
+
+
+/*@@@@@@@@@@@@@@@Desktop Styles@@@@@@@@@@@@@@@@*/
+
+
+/*-------------Desktop Global Styles ----------*/
+
+/*############## Home - Desktop ###############*/
+
+
+/************** Header - Desktop ***************/
+
+/************** Hero - Desktop *****************/
+
+/*************** Form - Desktop ****************/
+
+/************* Features - Desktop **************/
+
+/************** Review - Desktop ***************/
+
+/************** Footer - Desktop ***************/
+
+
+
+/*############## About - Desktop ##############*/
+
+/************* Mission - Desktop ***************/
+
+/************* Map- TDesktop *******************/
+
+/************* Contact - Desktop ***************/
+
+
+
+/*############## FAQ - Desktop ################*/
+
+/************* FAQ Content- Desktop ************/
+
+
+
+
+
+
+
+
 
   
     
