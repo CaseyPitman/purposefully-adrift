@@ -116,10 +116,17 @@ body{
 
 header  {
   background:red;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 header .content-wrapper {
   background:orange;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .header-divider {
@@ -129,10 +136,18 @@ header .content-wrapper {
 
 header nav  {
   background:yellow;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 header nav ul{
   background:green;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 header nav ul li {
@@ -150,6 +165,9 @@ header nav ul li  a {
 .hero-area  {
   background:indigo;
   /***Img will go here*/
+  display:flex;
+  justify-content:center;
+  align-items: center;
 }
 
 .hero-area .content-wrapper {
@@ -165,6 +183,10 @@ header nav ul li  a {
 
 aside{
   background:tomato;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 aside .content-wrapper{
@@ -183,6 +205,10 @@ aside .content-wrapper .form  {
 
 .features {
   background:lightblue;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 .features .content-wrapper{
@@ -191,6 +217,14 @@ aside .content-wrapper .form  {
 
 .features .content-wrapper h2 {
   background:greenyellow;
+}
+
+.feature-items{
+  background:chocolate;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 .feature-icon {
@@ -205,6 +239,10 @@ aside .content-wrapper .form  {
 
 .reviews  {
   background:olive;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow: row wrap;
 }
 
 .reviews .content-wrapper{
@@ -232,7 +270,11 @@ aside .content-wrapper .form  {
 /*_______________Footer - Mobile __________________*/
 
 footer{
-  background:rosybrown
+  background:rosybrown;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 footer .content-wrapper{
@@ -253,6 +295,10 @@ footer .content-wrapper{
 
 .social {
   background:lightsteelblue;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  flex-flow:row wrap;
 }
 
 .social h3{
@@ -261,6 +307,10 @@ footer .content-wrapper{
 
 .social-icons {
   background:lightgoldenrodyellow;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 .copyright  {
@@ -273,6 +323,10 @@ footer .content-wrapper{
 
 .mission  {
   background:blue;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 .mission .content-wrapper{
@@ -308,6 +362,10 @@ footer .content-wrapper{
 
 .contact-info {
   background:lightseagreen;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-flow:row wrap;
 }
 
 .contact-info .content-wrapper{
@@ -350,10 +408,14 @@ footer .content-wrapper{
 
 .faq  {
   background:green;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:row wrap;
 }
 
 .faq .content-wrapper{
-  backgound:lightgreen;
+  background:lightgreen;
 }
 
 .faq .content-wrapper h2{
