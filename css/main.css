@@ -551,81 +551,204 @@ footer p{
 
 /*@@@@@@@@@@@@@@@Tablet Styles@@@@@@@@@@@@@@@@*/
 
-
-/*-------------Tablet Global Styles ----------*/
-
-/*############## Home - Tablet ###############*/
+@media only screen and (min-width:768px)  {
 
 
-/************** Header - Tablet ***************/
+  /*-------------Tablet Global Styles ----------*/
 
-/************** Hero - Tablet *****************/
+  html {}
 
-/*************** Form - Tablet ****************/
+  body {}
 
-/************* Features - Tablet **************/
-
-/************** Review - Tablet ***************/
-
-/************** Footer - Tablet ***************/
+  .content-wrapper{
+    max-width:640px;
+  }
+  
 
 
 
-/*############## About - Tablet ##############*/
-
-/************* Mission - Tablet ***************/
-
-/************* Map- Tablet ********************/
-
-/************* Contact - Tablet ***************/
+  /*############## Home - Tablet ###############*/
 
 
+  /************** Header - Tablet ***************/
 
-/*############## FAQ - Tablet ################*/
+  header .content-wrapper{
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
 
-/************* FAQ Content- Tablet ************/
+  .header-divider{
+    display:none;
+  }
 
+  header nav {
+    width:20%;
+  }
+
+  /************** Hero - Tablet *****************/
+
+  /*************** Form - Tablet ****************/
+
+  aside .form-description{
+    width:40%;
+  }
+
+  aside .form {
+    width:40%;
+  }
+
+  aside .content-wrapper{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  /************* Features - Tablet **************/
+
+  .features .content-wrapper  {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    flex-flow:row wrap;
+  }
+
+  .feature-items {
+    width:80%;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  .features article {
+    width:40%;
+  }
+
+
+  /************** Review - Tablet ***************/
+
+  .reviews .content-wrapper{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-content:baseline;
+    flex-flow:row wrap;
+  }
+
+  .reviews .content-wrapper h2 {
+    margin:0;
+  }
+
+  .review-img{
+    width:48%;
+  }
+
+  .review-text  {
+    width:48%;
+  }
+
+  .review-text h3 {
+    margin:0;
+  }
+
+  .review-text p{
+    margin:10px 0 0 0 ;
+  }
+
+  /************** Footer - Tablet ***************/
+
+  footer {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow: row wrap;
+  }
+
+  /*.footer-content {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow: row wrap;
+
+  } try to make this work?*/
+  
+  footer .content-wrapper{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow: row wrap;
+  }
+
+  .social-icons {
+    width:100%
+
+  }
+
+  .copyright  {
+    width:100%;
+    text-align:center;
+  }
+
+
+
+  /*############## About - Tablet ##############*/
+
+  /************* Mission - Tablet ***************/
+
+  /************* Map- Tablet ********************/
+
+  /************* Contact - Tablet ***************/
+
+
+
+  /*############## FAQ - Tablet ################*/
+
+  /************* FAQ Content- Tablet ************/
+
+
+} /*<----------- End Tablet Styles *******/
 
 
 /*@@@@@@@@@@@@@@@Desktop Styles@@@@@@@@@@@@@@@@*/
-
-
-/*-------------Desktop Global Styles ----------*/
-
-/*############## Home - Desktop ###############*/
-
-
-/************** Header - Desktop ***************/
-
-/************** Hero - Desktop *****************/
-
-/*************** Form - Desktop ****************/
-
-/************* Features - Desktop **************/
-
-/************** Review - Desktop ***************/
-
-/************** Footer - Desktop ***************/
+@media only screen and (min-width:1200px) {
 
 
 
-/*############## About - Desktop ##############*/
+  /*-------------Desktop Global Styles ----------*/
 
-/************* Mission - Desktop ***************/
-
-/************* Map- TDesktop *******************/
-
-/************* Contact - Desktop ***************/
+  /*############## Home - Desktop ###############*/
 
 
+  /************** Header - Desktop ***************/
 
-/*############## FAQ - Desktop ################*/
+  /************** Hero - Desktop *****************/
 
-/************* FAQ Content- Desktop ************/
+  /*************** Form - Desktop ****************/
+
+  /************* Features - Desktop **************/
+
+  /************** Review - Desktop ***************/
+
+  /************** Footer - Desktop ***************/
 
 
 
+  /*############## About - Desktop ##############*/
 
+  /************* Mission - Desktop ***************/
+
+  /************* Map- TDesktop *******************/
+
+  /************* Contact - Desktop ***************/
+
+
+
+  /*############## FAQ - Desktop ################*/
+
+  /************* FAQ Content- Desktop ************/
+
+
+
+}/*<---------End Desktop Styles ----------*/
 
 
 
