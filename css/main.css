@@ -307,6 +307,7 @@ footer p{
 
 .contact  {
   background:lightseagreen;
+  text-align:center;
 }
 
 .contact h3 {
@@ -335,10 +336,13 @@ footer p{
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
+  width:100%;
 }
 
 .copyright  {
   background:lavender;
+  width:100%;
+  text-align:center;
 }
 
 /*############## About - Mobile ############*/
@@ -619,8 +623,17 @@ footer p{
   }
 
   .features article {
-    width:40%;
+    display:flex;
+    justify-content:center;
+    flex-basis:40%;
+    align-items:center;
+    flex-flow:column wrap;
   }
+
+  .features article p {
+    width:50%;
+  }
+  
 
 
   /************** Review - Tablet ***************/
@@ -660,15 +673,21 @@ footer p{
     justify-content: center;
     align-items:center;
     flex-flow: row wrap;
+    width:100%;
+  }
+  .footer-content {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  /*.footer-content {
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-flow: row wrap;
+  .contact{
+    width:40%;
+  }
 
-  } try to make this work?*/
+  .social{
+    width:40%;
+  }
   
   footer .content-wrapper{
     width:80%;
@@ -678,9 +697,12 @@ footer p{
     flex-flow: row wrap;
   }
 
+  .footer-content{
+    width:90%;
+    justify-content:space-between;
+  }
   .social-icons {
     width:100%
-
   }
 
   .copyright  {
@@ -688,24 +710,68 @@ footer p{
     text-align:center;
   }
 
-
-
   /*############## About - Tablet ##############*/
 
+
+
   /************* Mission - Tablet ***************/
+  
+  .mission-content{
+    display:flex; 
+    justify-content:space-between;
+    align-items: center;
+    flex-flow:row;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
 
   /************* Map- Tablet ********************/
 
+
+
   /************* Contact - Tablet ***************/
 
+  .contact-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-flow:row;
+  }
+
+  .general-info {
+    width:45%;
+  }
+
+  .contact-crew{
+    width:45%;
+  }
 
 
   /*############## FAQ - Tablet ################*/
 
   /************* FAQ Content- Tablet ************/
 
+  .faq .content-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+    flex-flow:row wrap;
+  }
 
-} /*<----------- End Tablet Styles *******/
+  .faq .content-wrapper h2{
+    margin:0;
+    width:100%;}
+
+  .faq-content{
+    flex-basis:40%;
+  }
+  
+  
+}
+  /*<----------- End Tablet Styles *******/
 
 
 /*@@@@@@@@@@@@@@@Desktop Styles@@@@@@@@@@@@@@@@*/
@@ -714,6 +780,11 @@ footer p{
 
 
   /*-------------Desktop Global Styles ----------*/
+
+  .content-wrapper{
+    max-width:960px;
+  }
+
 
   /*############## Home - Desktop ###############*/
 
@@ -724,7 +795,25 @@ footer p{
 
   /*************** Form - Desktop ****************/
 
+  aside .content-wrapper{
+    justify-content: space-around;
+  }
+  
+  aside .form-description  {
+    width:33%;
+  }
+
+  aside .form{
+    width:33%;
+  }
+
+
   /************* Features - Desktop **************/
+
+  .features article{
+    flex-basis:33%;
+  }
+
 
   /************** Review - Desktop ***************/
 
@@ -746,6 +835,9 @@ footer p{
 
   /************* FAQ Content- Desktop ************/
 
+  .faq-content{
+    flex-basis:45%;
+  }
 
 
 }/*<---------End Desktop Styles ----------*/
