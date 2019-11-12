@@ -150,8 +150,9 @@ h3{
 
 p{
   font-family: "Merriweather", serif;
-  font-size:0.8750em;
+  font-size:1em;
   line-height:1.5rem;
+  font-weight:300;
 }
 
 img{}
