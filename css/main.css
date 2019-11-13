@@ -105,7 +105,7 @@ html{
 }
 
 body{
-
+  color:#e7eff6;
 }
 
 .content-wrapper{
@@ -118,19 +118,14 @@ ul {
   list-style:none;
   padding:0;
   text-transform: uppercase;
-  
 }
 
-ul li{
-
-}
 
 a{
-  color:black;
   text-decoration: none;
+  color:#e7eff6;
 }
 
-/*Roboto for Hs and specials, Merriweather for Ps*/
 h1{
   font-family:"Roboto", sans-serif;
   font-weight:400;
@@ -144,7 +139,7 @@ h2{
 
 h3{
   font-family:"Roboto", sans-serif;
-  font-size:1.125em;
+  font-size:1.5em;
 }
 
 
@@ -168,7 +163,7 @@ address{
 /************* Header - Mobile ***************/
 
 header  {
-  background:red;
+  background:#03396c;    
   display:flex;
   justify-content:center;
   align-items:center;
@@ -177,7 +172,7 @@ header  {
 }
 
 header .content-wrapper {
-  background:orange;
+
   display:flex;
   justify-content:center;
   align-items:center;
@@ -187,13 +182,13 @@ header .content-wrapper {
 
 .header-divider {
   height:1px;
-  background:black;
+  background:#adcbe3;
   width:100%;
   margin:10px 0 15px;
 }
 
 header nav  {
-  background:yellow;
+  
   display:flex;
   justify-content:center;
   align-items:center;
@@ -202,7 +197,7 @@ header nav  {
 }
 
 header nav ul{
-  background:green;
+ 
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -210,12 +205,9 @@ header nav ul{
   width:100%;
 }
 
-header nav ul li {
-  background:blue;
-}
 
 header nav ul li  a {
- color:white;
+ color:#e7eff6;
 }
 
 /*############## Home - Mobile ############*/
@@ -223,7 +215,7 @@ header nav ul li  a {
 /*********Hero - Home - Mobile *************/
 
 .hero-area  {
-  background:indigo;
+  background:black;
   /***Img will go here*/
   display:flex;
   justify-content:center;
@@ -231,61 +223,60 @@ header nav ul li  a {
 
 }
 
-.hero-area .content-wrapper {
-  background:violet;
-}
 
-.hero-area .content-wrapper h1{ 
-  background:lightseagreen;
-}
 
 
 /*********Aside - Home - Mobile ************/
 
 aside{
-  background:tomato;
+  background:#63ace5;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
 }
 
-aside .content-wrapper{
-  background:orange;
-}
-
-aside .content-wrapper .form-description  {
-  background:lightgreen;
-}
 
 aside .content-wrapper .form  {
-  background:salmon;
+  margin-top:30px;
 }
 
 input{
   font-family:"Roboto", sans-serif;
 }
 
+input[type=text] {
+  box-sizing:border-box;
+  width:100%;
+  height:50px;
+  font-style:italic;
+}
+
+input[type=button]  {
+  width:100%;
+  padding:20px 0;
+  margin-top:20px;
+  background:#005b96;
+  color:#e7eff6;
+  font-weight:400;
+  font-size:1.125em;
+  border:none;
+  text-align:center;
+  text-transform:uppercase;
+}
+
 /*********Features - Home - Mobile ************/
 
 .features {
-  background:lightblue;
+  background:rgba(3,57,108,0.75); /*screened image goes here*/
   display:flex;
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
 }
 
-.features .content-wrapper{
-  background:pink;
-}
-
-.features .content-wrapper h2 {
-  background:greenyellow;
-}
-
 .feature-items{
-  background:chocolate;
+ 
   display:flex;
   justify-content:center;
   align-items:center;
@@ -297,14 +288,6 @@ input{
   margin:30px 0;
 }
 
-.feature-icon {
-  background:lightseagreen;
-}
-
-.feature-description {
-  background:lightgray;
-}
-
 .features p{
   margin:0;
 }
@@ -312,40 +295,27 @@ input{
 /*********Features - Home - Mobile ************/
 
 .reviews  {
-  background:olive;
+  background:#005b96;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-flow: row wrap;
 }
 
-.reviews .content-wrapper{
-  background:silver;
-}
-
 .review-img {
-  background:lightsalmon;
   width:320px;
   height:200px;
 }
 
-.review-text  {
-  background:brown;
-}
 
 .review-text h3  {
-  background:darkgoldenrod;
-  width: 60%;
-}
-
-.review-text p  {
-  background:steelblue;
+  width: 75%;
 }
 
 /*_______________Footer - Mobile __________________*/
 
 footer{
-  background:rosybrown;
+  background:#03396c; 
   display:flex;
   justify-content:center;
   align-items:center;
@@ -353,7 +323,6 @@ footer{
 }
 
 footer .content-wrapper{
-  background:cornflowerblue;
   width:70%;
   margin:50px 0;
 }
@@ -362,32 +331,17 @@ footer p{
 }
 
 .contact  {
-  background:lightseagreen;
   text-align:center;
 }
 
-.contact h3 {
-  background:lemonchiffon;
-}
-
-.contact p  {
-  background:royalblue;
-}
-
 .social {
-  background:lightsteelblue;
   display:flex;
   justify-content:center;
   align-content:center;
   flex-flow:row wrap;
 }
 
-.social h3{
-  background:lightpink;
-}
-
 .social-icons {
-  background:lightgoldenrodyellow;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -396,7 +350,6 @@ footer p{
 }
 
 .copyright  {
-  background:lavender;
   width:100%;
   text-align:center;
   padding:10px 0 30px 0;
@@ -413,38 +366,22 @@ footer p{
 /******Mission******/
 
 .mission  {
-  background:blue;
+  background:#63ace5;
   display:flex;
   justify-content: center;
   align-items:center;
   flex-flow:row wrap;
 }
 
-.mission .content-wrapper{
-  background:lightcyan;
-}
-
-.mission .content-wrapper h2{
-  background:lightgray;
-}
-
-.mission-content  {
-  background-color:lightcoral;
-}
-
-.mission-content p {
-  background:lightseagreen
-}
-
 
 /*******Map*******/
 .map  {
-  background:aquamarine;
+  background:black;
   height:450px;
 }
 
 .map figure {
-  background:slategray;
+  margin:0;
   height:450px
 }
 
@@ -452,78 +389,25 @@ footer p{
 /*******Contact Info*******/
 
 .contact-info {
-  background:lightseagreen;
+  background:#005b96;
   display:flex;
   justify-content: center;
   align-items:center;
   flex-flow:row wrap;
 }
 
-.contact-info .content-wrapper{
-  background:lightsteelblue;
-}
-
-.contact-info .content-wrapper h2{
-  background:silver;
-}
-
-.contact-content  {
-  background:lavender;
-}
-
-.general-info {
-  background:lightblue;
-}
-
-.general-info h3 {
-  background:greenyellow;
-}
-
-.general-info p {
-  background:rgb(171, 240, 171);
-}
-
-.contact-crew {
-  background:darkorange;
-}
-
-.contact-crew h3{
-  background:yellow;
-}
-
-.contact-crew p{
-  background:tomato;
-}
-
 /*############## FAQ - Mobile ############*/
 
 .faq  {
-  background:green;
+  background:#63ace5;
   display:flex;
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
 }
 
-.faq .content-wrapper{
-  background:lightgreen;
-}
-
-.faq .content-wrapper h2{
-  background:yellowgreen;
-}
-
 .faq-content  {
-  background:lightslategrey;
   margin:0 0 50px;
-}
-
-.faq-content h3 {
-  background:salmon;
-}
-
-.faq-content p  {
-  background:lightskyblue;
 }
 
 
@@ -667,6 +551,7 @@ footer p{
   aside .content-wrapper{
     display:flex;
     justify-content: space-between;
+    align-items:baseline;
   }
 
   /************* Features - Tablet **************/
@@ -859,9 +744,6 @@ footer p{
 
   /*************** Form - Desktop ****************/
 
-  aside .content-wrapper{
-    justify-content: space-around;
-  }
   
   aside .form-description  {
     width:33%;
