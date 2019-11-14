@@ -130,16 +130,19 @@ h1{
   font-family:"Roboto", sans-serif;
   font-weight:400;
   font-size:2.25em;
+  margin:0;
 }
 
 h2{
   font-family:"Roboto", sans-serif;
   font-size:1.875em;
+  margin:0;
 }
 
 h3{
   font-family:"Roboto", sans-serif;
   font-size:1.5em;
+  margin:0;
 }
 
 
@@ -148,6 +151,7 @@ p{
   font-size:1em;
   line-height:1.5rem;
   font-weight:300;
+  margin:15px 0;
 }
 
 img{}
@@ -236,10 +240,13 @@ aside{
   flex-flow:row wrap;
 }
 
-
-aside .content-wrapper .form  {
-  margin-top:30px;
+aside h3{
+  margin-bottom:15px;
 }
+.form-description{
+  margin-bottom:15px;
+}
+
 
 input{
   font-family:"Roboto", sans-serif;
@@ -254,8 +261,8 @@ input[type=text] {
 
 input[type=button]  {
   width:100%;
-  padding:20px 0;
-  margin-top:20px;
+  padding:15px 0;
+  margin-top:15px;
   background:#005b96;
   color:#e7eff6;
   font-weight:400;
@@ -264,6 +271,7 @@ input[type=button]  {
   text-align:center;
   text-transform:uppercase;
 }
+
 
 /*********Features - Home - Mobile ************/
 
@@ -276,7 +284,6 @@ input[type=button]  {
 }
 
 .feature-items{
- 
   display:flex;
   justify-content:center;
   align-items:center;
@@ -286,10 +293,12 @@ input[type=button]  {
 .features article{
   width:55%;
   margin:30px 0;
+  text-align:center;
 }
 
 .features p{
   margin:0;
+  
 }
 
 /*********Features - Home - Mobile ************/
@@ -303,8 +312,11 @@ input[type=button]  {
 }
 
 .review-img {
-  width:320px;
+  width:auto;
   height:200px;
+  background:black;
+  margin:20px 0 20px;
+  
 }
 
 
@@ -332,6 +344,7 @@ footer p{
 
 .contact  {
   text-align:center;
+  margin:15px 0;
 }
 
 .social {
@@ -339,7 +352,7 @@ footer p{
   justify-content:center;
   align-content:center;
   flex-flow:row wrap;
-}
+  margin:25px 0;}
 
 .social-icons {
   display:flex;
@@ -396,6 +409,15 @@ footer p{
   flex-flow:row wrap;
 }
 
+.contact-content{
+  margin:25px 0;
+}
+
+.contact-info h3{
+  margin:15px 0 0 0;
+
+}
+
 /*############## FAQ - Mobile ############*/
 
 .faq  {
@@ -409,6 +431,11 @@ footer p{
 .faq-content  {
   margin:0 0 50px;
 }
+
+.faq h2 {
+  margin:0 0 25px 0;
+}
+
 
 
 /* ==========================================================================
@@ -564,9 +591,13 @@ footer p{
     flex-flow:row wrap;
   }
 
+  .features h2  {
+    width:100%;
+  }
+
   .feature-items {
     width:80%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
   }
 
@@ -596,10 +627,13 @@ footer p{
 
   .reviews .content-wrapper h2 {
     margin:0;
+    width:80%;
+    margin-bottom:20px;
   }
 
   .review-img{
     width:48%;
+    margin:0;
   }
 
   .review-text  {
@@ -630,11 +664,11 @@ footer p{
   }
 
   .contact{
-    width:40%;
+    width:45%;
   }
 
   .social{
-    width:40%;
+    width:45%;
   }
   
   footer .content-wrapper{
@@ -677,6 +711,7 @@ footer p{
   }
 
 
+
   /************* Map- Tablet ********************/
 
 
@@ -690,13 +725,13 @@ footer p{
     flex-flow:row;
   }
 
-  .general-info {
+  /*.general-info {
     width:45%;
   }
 
   .contact-crew{
     width:45%;
-  }
+  }*/
 
 
   /*############## FAQ - Tablet ################*/
@@ -711,7 +746,7 @@ footer p{
   }
 
   .faq .content-wrapper h2{
-    margin:0;
+   /* margin:0;*/
     width:100%;}
 
   .faq-content{
