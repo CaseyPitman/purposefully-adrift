@@ -120,6 +120,12 @@ ul {
   text-transform: uppercase;
 }
 
+figure  {
+  width:100%}
+
+img{
+  width:100%;
+}
 
 a{
   text-decoration: none;
@@ -298,7 +304,6 @@ input[type=button]  {
 
 .features p{
   margin:0;
-  
 }
 
 /*********Features - Home - Mobile ************/
@@ -313,12 +318,9 @@ input[type=button]  {
 
 .review-img {
   width:auto;
-  height:200px;
-  background:black;
+  height:auto;
   margin:20px 0 20px;
-  
 }
-
 
 .review-text h3  {
   width: 75%;
