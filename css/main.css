@@ -413,6 +413,7 @@ footer p{
 
 .light-text {
   font-weight:300;
+  font-size:2.5rem;
 }
 .mission h2 {
   font-weight:400;
@@ -470,7 +471,7 @@ footer p{
 }
 
 .faq-content  {
-  margin:0 0 50px;
+  margin:0 0 20px;
 }
 
 .faq h2 {
@@ -640,6 +641,7 @@ footer p{
     display:flex;
     justify-content: space-between;
     align-items:baseline;
+    margin-bottom:20px;
   }
 
   /************* Features - Tablet **************/
