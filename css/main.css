@@ -120,9 +120,6 @@ ul {
   text-transform: uppercase;
 }
 
-/*figure  {
-  width:100%;
-}*/
 
 img{
   width:100%;
@@ -155,7 +152,6 @@ h3{
   margin:0;
 }
 
-
 p{
   font-family: "Merriweather", serif;
   font-size:1em;
@@ -164,15 +160,10 @@ p{
   margin:15px 0;
 }
 
-img{}
-
-figure{}
-
 address{
   font-family: "Meriweather", serif;
   font-style: normal;
 }
-
 
 /************* Header - Mobile ***************/
 
@@ -235,19 +226,15 @@ header nav ul li  a {
 .hero-area  {
   background:url('../img/hero.jpg') center no-repeat;
   background-size: cover;
-  /***Img will go here*/
   display:flex;
   justify-content:center;
   align-items: baseline;
   flex-flow:row wrap;
- /* width:100%;
-  min-height:500px;*/
 }
 
 .hero-area .content-wrapper {
   margin:10px 0;
 }
-
 
 /*********Aside - Home - Mobile ************/
 
@@ -265,7 +252,6 @@ aside h3{
 .form-description{
   margin-bottom:15px;
 }
-
 
 input{
   font-family:"Roboto", sans-serif;
@@ -290,7 +276,6 @@ input[type=button]  {
   text-align:center;
   text-transform:uppercase;
 }
-
 
 /*********Features - Home - Mobile ************/
 
@@ -368,6 +353,12 @@ footer p{
   margin:15px 0;
 }
 
+.contact-head {
+  font-family: "Roboto", sans-serif;
+  font-size:1.5rem;
+  font-weight:700;
+}
+
 .social {
   display:flex;
   justify-content:center;
@@ -384,7 +375,7 @@ footer p{
 }
 .social-icons p {
   font-size:2rem;
-  margin:20px 0 0;
+  margin:10px 0 0;
 }
 
 .copyright  {
@@ -418,8 +409,6 @@ footer p{
 .mission h2 {
   font-weight:400;
 }
-
-
 
 /*******Map*******/
 
@@ -484,7 +473,6 @@ footer p{
 .faq h3 {
   font-weight:lighter;
 }
-
 
 /* ==========================================================================
    Helper classes
@@ -582,12 +570,6 @@ footer p{
 
   /*-------------Tablet Global Styles ----------*/
 
-  html {
-    
-  }
-
-  body {}
-
   .content-wrapper{
     max-width:640px;
   }
@@ -596,9 +578,6 @@ footer p{
     font-size:2em;
   }
   
-
-
-
   /*############## Home - Tablet ###############*/
 
 
@@ -646,7 +625,6 @@ footer p{
 
   /************* Features - Tablet **************/
 
-  
   .features .content-wrapper  {
     display:flex;
     justify-content: center;
@@ -677,8 +655,6 @@ footer p{
     width:75%;
   }
   
-
-
   /************** Review - Tablet ***************/
 
   .reviews .content-wrapper{
@@ -760,7 +736,6 @@ footer p{
   /*############## About - Tablet ##############*/
 
 
-
   /************* Mission - Tablet ***************/
   
   .mission-content{
@@ -774,15 +749,11 @@ footer p{
     width: 45%;
   }
 
-
-
   /************* Map- Tablet ********************/
 
   .map figure{
     padding-bottom:45%;
   }
-
-
 
   /************* Contact - Tablet ***************/
 
@@ -792,15 +763,6 @@ footer p{
     align-items: baseline;
     flex-flow:row;
   }
-
-  /*.general-info {
-    width:45%;
-  }
-
-  .contact-crew{
-    width:45%;
-  }*/
-
 
   /*############## FAQ - Tablet ################*/
 
@@ -817,7 +779,6 @@ footer p{
     flex-basis:40%;
   }
   
-  
 }
   /*<----------- End Tablet Styles *******/
 
@@ -825,19 +786,11 @@ footer p{
 /*@@@@@@@@@@@@@@@Desktop Styles@@@@@@@@@@@@@@@@*/
 @media only screen and (min-width:1200px) {
 
-
-
   /*-------------Desktop Global Styles ----------*/
 
   .content-wrapper{
     max-width:960px;
   }
-
-
-  /*############## Home - Desktop ###############*/
-
-
-  /************** Header - Desktop ***************/
 
   /************** Hero - Desktop *****************/
 
@@ -850,7 +803,6 @@ footer p{
   }
   /*************** Form - Desktop ****************/
 
-  
   aside .form-description  {
     width:33%;
   }
@@ -859,34 +811,16 @@ footer p{
     width:33%;
   }
 
-
   /************* Features - Desktop **************/
 
   .features article{
     flex-basis:33%;
   }
 
-
-  /************** Review - Desktop ***************/
-
-  /************** Footer - Desktop ***************/
-
-
-
-  /*############## About - Desktop ##############*/
-
-  /************* Mission - Desktop ***************/
-
   /************* Map- Desktop *******************/
   .map figure{
     padding-bottom:37.5%;
   }
-
-  /************* Contact - Desktop ***************/
-
-
-
-  /*############## FAQ - Desktop ################*/
 
   /************* FAQ Content- Desktop ************/
 
@@ -894,17 +828,7 @@ footer p{
     flex-basis:45%;
   }
 
-
 }/*<---------End Desktop Styles ----------*/
-
-
-
-
-
-  
-    
-
-
 
 /* ==========================================================================
    Print styles.
