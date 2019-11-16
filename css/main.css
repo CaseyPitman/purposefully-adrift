@@ -776,6 +776,10 @@ footer p{
 
   /************* Map- Tablet ********************/
 
+  .map figure{
+    padding-bottom:45%;
+  }
+
 
 
   /************* Contact - Tablet ***************/
@@ -871,7 +875,10 @@ footer p{
 
   /************* Mission - Desktop ***************/
 
-  /************* Map- TDesktop *******************/
+  /************* Map- Desktop *******************/
+  .map figure{
+    padding-bottom:37.5%;
+  }
 
   /************* Contact - Desktop ***************/
 
