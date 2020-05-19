@@ -1,104 +1,5 @@
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
-/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/******************Global Styles *******************/
+/*Global Styles*/
 
 html{
   font-size:16px;
@@ -162,7 +63,7 @@ address{
   font-style: normal;
 }
 
-/************* Header - Mobile ***************/
+/* Header | Mobile */
 
 header  {
   background:#03396c;    
@@ -216,9 +117,9 @@ header nav ul li  a {
  color:#e7eff6;
 }
 
-/*############## Home - Mobile ############*/
+/*HOME MOBILE*/
 
-/*********Hero - Home - Mobile *************/
+/*HOME | Hero | Mobile */
 
 .hero-area  {
   background:url('../img/hero.jpg') center no-repeat;
@@ -233,7 +134,7 @@ header nav ul li  a {
   margin:10px 0;
 }
 
-/*********Aside - Home - Mobile ************/
+/*HOME | Aside | Mobile*/
 
 aside{
   background:#63ace5;
@@ -274,7 +175,7 @@ input[type=button]  {
   text-transform:uppercase;
 }
 
-/*********Features - Home - Mobile ************/
+/*HOME | Features | Mobile*/
 
 .features {
   background: url('../img/features-bkgd.jpg') center no-repeat;
@@ -306,7 +207,7 @@ input[type=button]  {
   margin:0;
 }
 
-/*********Features - Home - Mobile ************/
+/*HOME | Reviews | Mobile*/
 
 .reviews  {
   background:#005b96;
@@ -326,7 +227,7 @@ input[type=button]  {
   width: 100%;
 }
 
-/*_______________Footer - Mobile __________________*/
+/*Footer | Mobile*/
 
 footer{
   background:#03396c; 
@@ -386,9 +287,9 @@ footer p{
   font-weight:700;
 }
 
-/*############## About - Mobile ############*/
+/*ABOUT MOBILE*/
 
-/******Mission******/
+/*ABOUT | Mission | Mobile*/
 
 .mission  {
   background:#63ace5;
@@ -406,7 +307,7 @@ footer p{
   font-weight:400;
 }
 
-/*******Map*******/
+/*ABOUT | Map | Mobile*/
 
 .map figure {
   width:100%;
@@ -425,7 +326,7 @@ footer p{
   left:0;
 }
 
-/*******Contact Info*******/
+/*ABOUT | Contact | Mobile*/
 
 .contact-info {
   background:#005b96;
@@ -449,7 +350,7 @@ footer p{
   font-size:1.5rem;
 }
 
-/*############## FAQ - Mobile ############*/
+/*FAQ MOBILE*/
 
 .faq  {
   background:#63ace5;
@@ -474,101 +375,12 @@ footer p{
   font-weight:normal;
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-  display: none !important;
-}
-
-/*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
-* Extends the .sr-only class to allow the element
-* to be focusable when navigated to via the keyboard:
-* https://www.drupal.org/node/897638
-*/
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
-* Hide visually and from screen readers, but maintain layout
-*/
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-/*@@@@@@@@@@@@@@@Tablet Styles@@@@@@@@@@@@@@@@*/
+/*TABLET TYLES*/
 
 @media only screen and (min-width:768px)  {
 
 
-  /*-------------Tablet Global Styles ----------*/
+  /*Tablet Global Styles*/
 
   .content-wrapper{
     max-width:640px;
@@ -578,10 +390,10 @@ footer p{
     font-size:2em;
   }
   
-  /*############## Home - Tablet ###############*/
+  /*HOME TABLET*/
 
 
-  /************** Header - Tablet ***************/
+  /*HOME | Header | Tablet*/
 
   header .content-wrapper{
     flex-flow: row nowrap;
@@ -596,7 +408,7 @@ footer p{
     width:20%;
   }
 
-  /************** Hero - Tablet *****************/
+  /*HOME | Hero | Tablet*/
 
   .hero-area{
     min-height:700px;
@@ -606,7 +418,7 @@ footer p{
     font-size:2.25rem;
     margin:30px 0;
   }
-  /*************** Form - Tablet ****************/
+  /*HOME | Form | Tablet*/
 
   aside .form-description{
     width:40%;
@@ -623,7 +435,7 @@ footer p{
     margin-bottom:20px;
   }
 
-  /************* Features - Tablet **************/
+  /*HOME | Features | Tablet*/
 
   .features .content-wrapper  {
     display:flex;
@@ -655,7 +467,7 @@ footer p{
     width:75%;
   }
   
-  /************** Review - Tablet ***************/
+  /*HOME | Reveiw | Tablet*/
 
   .reviews .content-wrapper{
     width:100%;
@@ -688,7 +500,7 @@ footer p{
     margin:10px 0 0 0 ;
   }
 
-  /************** Footer - Tablet ***************/
+  /*FOOTER | Tablet*/
 
   footer {
     display:flex;
@@ -733,10 +545,9 @@ footer p{
     text-align:center;
   }
 
-  /*############## About - Tablet ##############*/
+  /*ABOUT | Tablet*/
 
-
-  /************* Mission - Tablet ***************/
+  /*ABOUT | Mission | Tablet*/
   
   .mission-content{
     display:flex; 
@@ -749,13 +560,13 @@ footer p{
     width: 45%;
   }
 
-  /************* Map- Tablet ********************/
+  /*ABOUT | Map | Tablet*/
 
   .map figure{
     padding-bottom:45%;
   }
 
-  /************* Contact - Tablet ***************/
+  /*ABOUT | Contact | Tablet*/
 
   .contact-content{
     display:flex;
@@ -764,9 +575,9 @@ footer p{
     flex-flow:row;
   }
 
-  /*############## FAQ - Tablet ################*/
+  /*FAQ | Tablet*/
 
-  /************* FAQ Content- Tablet ************/
+  /*FAQ Content- Tablet*/
 
   .faq .content-wrapper {
     display:flex;
@@ -780,10 +591,11 @@ footer p{
   }
   
 }
-  /*<----------- End Tablet Styles *******/
+  /*End Tablet Styles */
 
 
-/*@@@@@@@@@@@@@@@Desktop Styles@@@@@@@@@@@@@@@@*/
+/*DESKTOP STYLES*/
+
 @media only screen and (min-width:1200px) {
 
   /*-------------Desktop Global Styles ----------*/
@@ -792,7 +604,7 @@ footer p{
     max-width:960px;
   }
 
-  /************** Hero - Desktop *****************/
+  /*HOME | Hero | Desktop*/
 
   .hero-area{
     min-height:700px;
@@ -801,7 +613,7 @@ footer p{
   .hero-area h1{
     font-size:3rem;
   }
-  /*************** Form - Desktop ****************/
+  /*HOME | Form | Desktop*/
 
   aside .form-description  {
     width:33%;
@@ -811,88 +623,21 @@ footer p{
     width:33%;
   }
 
-  /************* Features - Desktop **************/
+  /*HOME | Features | Desktop*/
 
   .feature-item {
     flex-basis:33%;
   }
 
-  /************* Map- Desktop *******************/
+  /*ABOUT | Map | Desktop*/
   .map figure{
     padding-bottom:37.5%;
   }
 
-  /************* FAQ Content- Desktop ************/
+  /*FAQ Content | Desktop*/
 
   .faq-content{
     flex-basis:45%;
   }
 
 }/*<---------End Desktop Styles ----------*/
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-  pre {
-    white-space: pre-wrap !important;
-  }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-  thead {
-    display: table-header-group;
-  }
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
-
